@@ -29,4 +29,7 @@ Two types of products:
 - On demand recording system which can begin recording on demand (Problem is that the )
 - Scheduled based recording system that follows a calendar system. What one needs to do would be invite the user to the calendar invite and it will handle the rest by logging in and cutting off accordingly.
 
+# Usage/Setup Instructions
+Refer to the USAGE.md instructions.
+
 
