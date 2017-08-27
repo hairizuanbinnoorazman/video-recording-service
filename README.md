@@ -22,10 +22,11 @@ This is the list of things to experiment:
   - Queue System (Redis?)
   - Python script to absorb the items from queue system
 - Combining it with a chat application (Possibly Slack? - maybe not needed?)
+- Automated video file upload from Google Cloud Storage to relevant user's Google Drive
 
 # End Product
 Two types of products:
-- On demand recording system which can begin recording on demand
+- On demand recording system which can begin recording on demand (Problem is that the )
 - Scheduled based recording system that follows a calendar system. What one needs to do would be invite the user to the calendar invite and it will handle the rest by logging in and cutting off accordingly.
 
 
