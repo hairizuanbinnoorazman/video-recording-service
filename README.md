@@ -14,5 +14,18 @@ Although we can easily set up process to try to deal with the above situation, w
 # What's involved?
 This is the list of things to experiment:
 
-- Setting up Video Recording on Server
-- Setting up Video + Audio Recording on Server
+- ~~Setting up Video Recording on Server~~
+- ~~Setting up Video + Audio Recording on Server~~
+- Ensure that the Video + Audio Service is smooth for 1 hour of recording (Optimization)
+- Setting up architecture backbone (Not yet firmed up)
+  - API Service (Google Functions? or Web Service)
+  - Queue System (Redis?)
+  - Python script to absorb the items from queue system
+- Combining it with a chat application (Possibly Slack? - maybe not needed?)
+
+# End Product
+Two types of products:
+- On demand recording system which can begin recording on demand
+- Scheduled based recording system that follows a calendar system. What one needs to do would be invite the user to the calendar invite and it will handle the rest by logging in and cutting off accordingly.
+
+
